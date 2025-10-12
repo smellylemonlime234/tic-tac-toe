@@ -1,3 +1,4 @@
+#when I say AI I really mean algorithm :p
 import random
 import time
 class TicTacToe:
@@ -45,7 +46,6 @@ class TicTacToe:
                 self.marked_tiles[tiles]=' '
         return random.choice(self.possible_choices)            
 
-    # THE IMPOSSIBLE ALGORITHm DOESNT WORK!!!
     def impossible_ai(self, is_Maximising_Player):
         count_points = self.check_win_or_draw()
 
