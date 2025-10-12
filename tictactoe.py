@@ -1,4 +1,4 @@
-#when I say AI I really mean algorithm :p
+#when a function has the word AI in it, I  really mean algorithm :p
 import random
 import time
 class TicTacToe:
@@ -41,8 +41,8 @@ class TicTacToe:
                     if self.check_win_or_draw():
                         self.marked_tiles[tiles] = ' '
                         return int(tiles[-1])
-            
                     blocking = True
+                    
                 self.marked_tiles[tiles]=' '
         return random.choice(self.possible_choices)            
 
@@ -192,3 +192,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
