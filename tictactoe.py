@@ -59,7 +59,7 @@ class TicTacToe:
                 self.marked_tiles[tile]=' '
         return random.choice(self.possible_choices)            
 
-
+    #This algorithm is IMPOSSIBLE to beat. It is made using a MINIMAX algorithm similar to what chess bots use!
     def impossible_algorithm(self, is_Maximising_Player, depth=0):
 
         count_points = self.check_win_or_draw()
